@@ -49,4 +49,4 @@ Retail sales transaction data including:
 ![Customer Analysis](customer_analysis.png)
 ## SQL Code
 
-[View Full SQL Script](retail_sales_project.sql)
+[View Full SQL Script](retail_sales_projects.sql)
