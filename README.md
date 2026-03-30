@@ -42,3 +42,8 @@ Retail sales transaction data including:
 - Window functions (RANK)
 - Common Table Expressions (CTEs)
 - Business-focused data analysis
+## Sample Output
+
+### Top Customers by Orders and Spending
+
+![Customer Analysis](sql_retail_dashboard_1.png)
