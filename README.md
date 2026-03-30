@@ -1,52 +1,99 @@
-# Retail Sales Analytics SQL Project
+# Retail Sales Dashboard (SQL + Google Sheets)
 
 ## Overview
-This project analyzes retail transaction data using SQL to uncover insights into revenue performance, customer behavior, and product trends.
+This project analyzes retail sales data using SQL and visualizes key business insights through a dashboard built in Google Sheets.
 
-## Tools Used
-- PostgreSQL
-- DBeaver
-- SQL
+The objective was to transform raw transactional data into meaningful insights around customer behavior, revenue trends, and product performance.
+
+---
 
 ## Dataset
-Retail sales transaction data including:
-- order_id
-- order_date
-- customer_name
-- product_name
-- category
-- region
-- quantity
-- price
-- discount
-- total_sales
+The dataset simulates retail sales transactions and includes:
+
+- Order ID  
+- Order Date  
+- Customer ID & Name  
+- Product & Category  
+- Quantity  
+- Price  
+- Discount  
+- Total Sales  
+
+---
 
 ## Key Analyses
-- Revenue by category and region
-- Monthly sales trends
-- Top customers by spending
-- Customer segmentation (high, mid, low value)
-- Product ranking using window functions
-- Repeat customer analysis
 
-## Key Insights
-- A small group of customers drives the majority of revenue
-- Electronics and Furniture are top-performing categories
-- Repeat customers generate significant value
-- Monthly trends highlight consistent revenue growth
+- Top customers by total spend  
+- Revenue by product category  
+- Monthly revenue trends  
+- Customer segmentation (high vs low value)  
+- Product performance ranking using window functions  
+- Repeat customer behavior  
 
-## Skills Demonstrated
-- SQL aggregation (SUM, AVG, COUNT)
-- GROUP BY analysis
-- CASE statements
-- Window functions (RANK)
-- Common Table Expressions (CTEs)
-- Business-focused data analysis
-## Sample Output
+---
 
-### Top Customers by Orders and Spending
+## Dashboard Preview
 
 ![Customer Analysis](customer_analysis.png)
+
+---
+
+## Key Insights
+
+- Revenue shows steady growth over time  
+- Furniture is the top-performing category  
+- A small group of customers drives the majority of total revenue  
+- Customer spending is highly concentrated among top buyers  
+
+---
+
 ## SQL Code
 
 [View Full SQL Script](retail_sales_projects.sql)
+
+---
+
+## SQL Skills Demonstrated
+
+- Aggregations (SUM, AVG, COUNT)  
+- GROUP BY analysis  
+- Common Table Expressions (CTEs)  
+- Window functions (RANK)  
+- CASE statements  
+- Date-based analysis (DATE_TRUNC)  
+
+---
+
+## Tools Used
+
+- PostgreSQL  
+- DBeaver  
+- Google Sheets (dashboard & visualization)  
+- GitHub  
+
+---
+
+## Project Workflow
+
+1. Wrote SQL queries to clean and analyze transactional data  
+2. Used aggregations and CTEs to calculate key metrics  
+3. Exported query results to CSV files  
+4. Built a dashboard in Google Sheets to visualize insights  
+5. Highlighted key findings for business decision-making  
+
+---
+
+## What I Learned
+
+- How to turn raw data into business insights  
+- Writing structured and efficient SQL queries  
+- Building clean, readable dashboards  
+- Communicating insights clearly  
+
+---
+
+## Next Steps
+
+- Build dashboards using Power BI or Tableau  
+- Work with larger, real-world datasets  
+- Add predictive analysis (forecasting revenue trends)  
