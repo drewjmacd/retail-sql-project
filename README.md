@@ -46,4 +46,4 @@ Retail sales transaction data including:
 
 ### Top Customers by Orders and Spending
 
-![Customer Analysis](sql_retail_dashboard_1.png)
+![Customer Analysis](customer_analysis.png)
